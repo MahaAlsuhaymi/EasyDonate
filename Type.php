@@ -40,6 +40,52 @@ else
 
 <!-- End of Menu section -->
 
+<div class="Wardrobe">
+<br><br>
+<center><i>بماذا تريد أن تتبرع؟</i><br>
+<p>--اختر من الاقسام التالية--</p> 
+</center>
+<hr width="50%"><br>
+
+<div class="flex-container">
+
+<div class="container">
+  <img src="images/clothes.png" class="image" style="width:100%">
+  <div class="middle">
+    <a href="Type.php?type=clothes" class="text">تبرع الان!</a>
+  </div>
+</div>
+
+<div class="container">
+  <img src="images/books.png"  class="image" style="width:100%">
+  <div class="middle">
+    <a href="Type.php?type=books" class="text">تبرع الان!</a>
+  </div>
+</div>
+
+
+<div class="container">
+  <img src="images/food.png"  class="image" style="width:100%">
+  <div class="middle">
+    <a href="Type.php?type=food" class="text">تبرع الان!</a>
+  </div>
+</div>
+
+
+<div class="container">
+  <img src="images/Blood.png" class="image" style="width:100%">
+  <div class="middle">
+    <a href="Type.php?type=Blood" class="text">تبرع الان!</a>
+  </div>
+</div>
+
+
+</div> 
+</div>
+
+
+<!--Donation Types End-->
+
 
 <?php
 if(isset($_GET['type'])){
@@ -49,7 +95,7 @@ if ($type == 'Blood') {
 
 echo '
 <br><br>
-<center><i>المنظمات المدعومة</i><br>
+<center><i>المنظمات المدعومة للتبرع بالدم</i><br>
 <hr width="50%">
 </center>
 <div class="flex-container">
@@ -79,7 +125,7 @@ elseif ($type == 'food') {
 
   echo '
 <br><br>
-<center><i>المنظمات المدعومة</i><br>
+<center><i>المنظمات المدعومة للتبرع بالمواد الغذائية</i><br>
 <hr width="50%">
 </center>
 <div class="flex-container">
@@ -111,7 +157,7 @@ elseif ($type == 'books') {
 
   echo '
 <br><br>
-<center><i>المنظمات المدعومة</i><br>
+<center><i>المنظمات المدعومة للتبرع بالكتب</i><br>
 <hr width="50%">
 </center>
 <div class="flex-container">
@@ -134,7 +180,7 @@ elseif ($type == 'clothes') {
 
   echo '
 <br><br>
-<center><i>المنظمات المدعومة</i><br>
+<center><i>المنظمات المدعومة للتبرع بالملابس</i><br>
 <hr width="50%">
 </center>
 <div class="flex-container">

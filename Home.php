@@ -32,20 +32,7 @@ if(isset($_SESSION['name'])){
 
 echo"<li style='float:left !important'><a class='active' href='Logout.php'>تسجيل الخروج</a></li>";
 echo"<li style='float:left !important'><a class='active' href='Edit.php'>الملف الشخصي</a></li>";
-
-}
-else
-{
-  echo"<li style='float:left !important'><a class='active' href='Login.php'>تسجيل الدخول </a></li>";
-
-}
-?>
-</ul>
-<img src="images/28.png" width="100%" height="600">
-
-<!-- End of Menu section -->
-
-
+echo '
 <!-- Start of flex container -->
 
 <div class="Wardrobe">
@@ -90,7 +77,20 @@ else
 
 </div> 
 </div>
+';
 
+}
+else
+{
+  echo"<li style='float:left !important'><a class='active' href='Login.php'>تسجيل الدخول </a></li>";
+  echo"<li style='float:left !important'><a class='active' href='Type.php'>تبرع لمرة واحدة</a></li>";
+  
+}
+?>
+</ul>
+<img src="images/28.png" width="100%" height="600">
+
+<!-- End of Menu section -->
 
 
  <br><br>

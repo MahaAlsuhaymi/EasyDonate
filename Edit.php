@@ -41,6 +41,7 @@ echo"<li style='float:left !important'><a class='active' href='Edit.php'>الم�
 else
 {
   echo"<li style='float:left !important'><a class='active' href='Login.php'>تسجيل الدخول </a></li>";
+  echo"<li style='float:left !important'><a class='active' href='Type.php'>تبرع لمرة واحدة</a></li>";
 
 }
 ?>

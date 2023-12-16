@@ -39,9 +39,6 @@ else
 
 <!-- End of Menu section -->
 
-
-  
-
 <div class="home-content">
 <center>
   <div style="margin-top: 80px;"><i>تبرعاتي</i><br><br>
@@ -72,7 +69,7 @@ if($num)
 }
 else
 {
-  echo "There Is No Donations Yet.";
+  echo "لا يوجد لديك تبرعات";
   echo "<br/>";
 }
 

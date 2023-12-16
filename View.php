@@ -42,8 +42,6 @@ else
 <!-- End of Menu section -->
 
 
-
-
 <?php
 if(isset($_GET['org_name'])){
 $org_name=$_GET['org_name'];

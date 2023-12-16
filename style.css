@@ -115,8 +115,7 @@ li a:hover:not(.active) {
 
 .about{
   display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content:center;
     margin: 30px;
     flex-wrap: wrap;
 }
@@ -280,37 +279,6 @@ img {vertical-align: middle;}
 .form label
 {
     text-align: right !important;
-}
-
-
-
-.tWardrobe i
-{
-  font-size: 24px;
-}
-
-.tWardrobe p
-{
-  font-size: 14px;
-}
-
-.tflex-container {
-   justify-content: center; 
-   flex-wrap: wrap; 
-   display: flex;
-  background-color: white;
-
-
-}
-
-.tflex-container > div {
-  background-color: #f1f1f1;
-  width: 300px;
-  margin: 2px;
-  padding: 5px;
-  text-align: center;
-  font-size: 30px;
-  border: none;
 }
 
 .card {

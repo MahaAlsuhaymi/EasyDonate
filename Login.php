@@ -31,7 +31,7 @@ include("connect.php");
 
 <center><input type="submit" value="دخول">
 <br>
-<a href="Signup.php">ليس لديك حساب؟ سجل الان</a></center> 
+<a href="Signup.php">!ليس لديك حساب؟ سجل الان</a></center> 
 </form>
 
 <?php 
@@ -57,7 +57,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')
     }
     else{
         echo '</br>';
-        echo'<p>Sorry,The Information Is Incorrect</p>';
+        echo'<p>عذرا، المعلومات المدخلة خاطئة</p>';
     }
 
 } 

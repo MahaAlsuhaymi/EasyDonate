@@ -37,6 +37,7 @@ echo"<li style='float:left !important'><a class='active' href='Edit.php'>الم�
 else
 {
   echo"<li style='float:left !important'><a class='active' href='Login.php'>تسجيل الدخول </a></li>";
+  echo"<li style='float:left !important'><a class='active' href='Login.php'>تبرع لمرة واحدة</a></li>";
 
 }
 ?>
@@ -45,7 +46,6 @@ else
 
 
  <!-- start of About section -->
-
 <div class="about" id="about">
 
   <div>
@@ -64,6 +64,7 @@ else
   <img class="about_image" src="images/about.png"  >
   </div>
   </div>
+
   <!-- end of About section -->
   <div class="clean"></div>
   <br><br>

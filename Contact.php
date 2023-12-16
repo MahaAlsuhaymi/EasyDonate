@@ -16,7 +16,7 @@
 
 input[type=submit] {
   width: 100%;
-  background-color: #97743E !important;
+  background-color: #1a8497 !important;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -70,6 +70,7 @@ echo"<li style='float:left !important'><a class='active' href='Edit.php'>الم�
 else
 {
   echo"<li style='float:left !important'><a class='active' href='Login.php'>تسجيل الدخول </a></li>";
+  echo"<li style='float:left !important'><a class='active' href='Type.php'>تبرع لمرة واحدة</a></li>";
 
 }
 ?>

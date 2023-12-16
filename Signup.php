@@ -31,7 +31,7 @@ $insert_user=mysqli_query($connect,"INSERT INTO users(user_name,user_email,user_
     }
     else
  {
-    echo"your information is not saved";
+    echo"عذرا، حصل خطأ أثناء التسجيل";
  }
   } 
 
@@ -55,7 +55,7 @@ $insert_user=mysqli_query($connect,"INSERT INTO users(user_name,user_email,user_
   <label>كلمة المرور</label>
   <input type="password"  name="password" required ><br>
 
-<center><input type="submit" value="Sign Up">
+<center><input type="submit" value="تسجيل">
 <br>
 <a href="Login.php">لديك حساب؟ أضغط هنا
 </a></center> 
