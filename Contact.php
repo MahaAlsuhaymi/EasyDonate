@@ -61,8 +61,7 @@ textarea
 
 <?php  
 if(isset($_SESSION['name'])){
-
-
+  
 echo"<li style='float:left !important'><a class='active' href='Logout.php'>تسجيل الخروج</a></li>";
 echo"<li style='float:left !important'><a class='active' href='Edit.php'>الملف الشخصي</a></li>";
 
