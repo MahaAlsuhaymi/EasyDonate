@@ -62,11 +62,11 @@ $name=$_POST['name'];
 $insert_user=mysqli_query($connect,"INSERT INTO  organization(type,org_name,address,contact,don_date,user_name,user_id ) 
 VALUES('$type','$org_name','$address','$contact',NOW(),'$name','$userid')");
 if ($insert_user) {
-
 echo '<script language="javascript">';
 echo 'alert("لقد تم التبرع بنجاح!")';
 echo '</script>';
 
+header("Refresh:3; url=Home.php");
     }
 }
 
@@ -86,7 +86,7 @@ echo '<script language="javascript">';
 echo 'alert("لقد تم التبرع بنجاح!")';
 echo '</script>';
 
-header("Refresh:3; url=main.php");
+header("Refresh:3; url=Home.php");
 
     }
 }

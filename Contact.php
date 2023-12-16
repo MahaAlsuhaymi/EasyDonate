@@ -74,7 +74,7 @@ else
 }
 ?>
 </ul>
-<img src="images/header_1.png" width="100%" height="600">
+<img src="images/header_pic.png" width="100%" height="600">
 
 <!-- End of Menu section -->
 
@@ -83,7 +83,7 @@ else
 <hr width="50%"><br>
 
 <center>
-<form action="/action_page.php">
+<form action="formSubmit.php">
   <label for="name">الاسم</label>
   <input type="text" id="name" name="name" required><br>
   <label for="Email">البريد الالكتروني</label>
@@ -97,8 +97,8 @@ else
  <textarea id="textarea" name="message" width="200px" rows="3" cols="30" placeholder="أكتب لنا رسالة هنا...">
 </textarea><br>
  <input type="submit" value="أرسال">
-
 </form>
+
 </center>
 
 <center>

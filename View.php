@@ -37,7 +37,7 @@ else
 }
 ?>
 </ul>
-<img src="images/header_1.png" width="100%" height="600">
+<img src="images/header_pic.png" width="100%" height="600">
 
 <!-- End of Menu section -->
 
