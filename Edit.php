@@ -22,12 +22,12 @@ if(isset($_SESSION['name']) && $_SESSION['id']){
 <link href="images/">
 </head>
 <body style="margin: 0px; ">
-  <!-- start of Menu section -->
-<ul>
+<!-- start of Menu section -->
+<ul style="font-size: 18px; font-weight: bold;">
 
-  <li ><a style="text-align: right;" href="Home.php">الرئيسية</a></li>
-        <li><a href="About_us.php">من نحن؟</a></li>
+    <li ><a style="text-align: right;" href="Home.php">الرئيسية</a></li>
         <li><a href="Faqs.php">الأسئلة الشائعة</a></li>
+        <li><a href="About_us.php">من نحن؟</a></li>
   <li><a href="Contact.php">تواصل معنا</a></li>
 
 <?php  
@@ -46,6 +46,9 @@ else
 }
 ?>
 </ul>
+<img src="images/header_1.png" width="100%" height="600">
+
+<!-- End of Menu section -->
 
     <div class="home-content">
 
@@ -85,9 +88,10 @@ else
   </div>
 
 
-    <div class="Login_1">
-  <img class="Login_img" src="images/19.jpg" width="350px" >
+  <div class="Login_1">
+  <img class="Login_img" src="images/profile_pic.png" width="150px">
   </div>
+  
   <?php
 }
 ?>
@@ -102,26 +106,22 @@ else
     $edit_user=mysqli_query($connect,"UPDATE users set user_email= '$email',user_name='$name',user_password ='$encrypted_pwd' where user_id= '$id' ");//for sending the inforamtion to the database  
     if ($edit_user) {
            
-          echo "<br>Your Information have been Saved, Please Refresh the page"; 
+          echo "<br>تم تعديل بياناتك بنجاح، حدث الصفحة"; 
          
    
     }
     else
  {
-    echo"Please Try Again Later";
+    echo"عذرا، جرب بوقت اخر";
  }
   } 
- 
-
-
  ?> 
   </div>
 </center>
     </div>
  
 
-
-
+<br><br><br><br>
 </body>
 </html>
 

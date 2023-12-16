@@ -74,12 +74,12 @@ function myFunction() {
 </script>
 </head>
 <body style="margin: 0px; ">
-  <!-- start of Menu section -->
-<ul>
+<!-- start of Menu section -->
+<ul style="font-size: 18px; font-weight: bold;">
 
-  <li ><a style="text-align: right;" href="Home.php">الرئيسية</a></li>
-        <li><a href="About_us.php">من نحن؟</a></li>
+    <li ><a style="text-align: right;" href="Home.php">الرئيسية</a></li>
         <li><a href="Faqs.php">الأسئلة الشائعة</a></li>
+        <li><a href="About_us.php">من نحن؟</a></li>
   <li><a href="Contact.php">تواصل معنا</a></li>
 
 <?php  
@@ -98,7 +98,7 @@ else
 }
 ?>
 </ul>
-<img src="images/28.png" width="100%" height="600">
+<img src="images/header_1.png" width="100%" height="600">
 
 <!-- End of Menu section -->
 

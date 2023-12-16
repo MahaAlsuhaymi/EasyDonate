@@ -13,8 +13,8 @@ include("connect.php");
 <link href="images/">
 </head>
 <body style="margin: 0px; ">
-  <!-- start of Menu section -->
-<ul>
+<!-- start of Menu section -->
+<ul style="font-size: 18px; font-weight: bold;">
 
     <li ><a style="text-align: right;" href="Home.php">الرئيسية</a></li>
         <li><a href="Faqs.php">الأسئلة الشائعة</a></li>
@@ -32,14 +32,18 @@ echo"<li style='float:left !important'><a class='active' href='Edit.php'>الم�
 else
 {
   echo"<li style='float:left !important'><a class='active' href='Login.php'>تسجيل الدخول </a></li>";
+  echo"<li style='float:left !important'><a class='active' href='Type.php'>تبرع لمرة واحدة</a></li>";
 
 }
 ?>
 </ul>
-<img src="images/28.png" width="100%" height="600">
-
+<img src="images/header_1.png" width="100%" height="600">
 
 <!-- End of Menu section -->
+
+
+
+
 
 
 <?php
@@ -52,9 +56,9 @@ echo'
 <center>
     <br>
     <br>
-<i>  أيثار  </i>
+<i>  إيثار  </i>
 <hr width="50%"><br>
-<section style=" background-color: white; width:800px">
+<section style="background-color: White; width:600px">
 <p style="font-size:18px; text-align:right">
 تم إنشاء جمعية إيثار في عام 2010م بموافقة وزارة الموارد البشرية والتنمية الاجتماعية تحت مسمى (الجمعية الخيرية السعودية لتنشيط التبرع بالأعضاء بالمنطقة الشرقية) والاسم المختصر (إيثار).
 
@@ -63,7 +67,9 @@ echo'
  </p>
 
 </section>
-<img src="images/ethar.jpg" width="50%" height="400">
+<img src="images/ethar.jpg" width="250" height="250">
+<br>
+<button style="float:Bottom !important"><a class="active" href="Donate.php">تبرع الأن</a></button>
 </center>
 ';
 
@@ -84,7 +90,9 @@ echo'
  </p>
 
 </section>
-<img src="images/blood1.jpg" width="50%" height="400">
+<img src="images/blood1.jpg" width="250" height="250">
+<br>
+<button style="float:Bottom !important"><a class="active" href="Donate.php">تبرع الأن</a></button>
 </center>
 ';
 
@@ -109,7 +117,9 @@ echo'
  </p>
 
 </section>
-<img src="images/food1.jpg" width="50%" height="400">
+<img src="images/food1.jpg" width="250" height="250">
+<br>
+<button style="float:Bottom !important"><a class="active" href="Donate.php">تبرع الأن</a></button>
 </center>
 ';
 
@@ -134,7 +144,9 @@ echo'
  </p>
 
 </section>
-<img src="images/food2.jpg" width="50%" height="400">
+<img src="images/food2.jpg" width="250" height="250">
+<br>
+<button style="float:Bottom !important"><a class="active" href="Donate.php">تبرع الأن</a></button>
 </center>
 ';
 
@@ -158,7 +170,9 @@ echo'
  </p>
 
 </section>
-<img src="images/book1.png" width="50%" height="400">
+<img src="images/book1.png" width="250" height="250">
+<br>
+<button style="float:Bottom !important"><a class="active" href="Donate.php">تبرع الأن</a></button>
 </center>
 ';
 
@@ -183,7 +197,9 @@ echo'
  </p>
 
 </section>
-<img src="images/clothes1.png" width="50%" height="400">
+<img src="images/clothes1.png" width="250" height="250">
+<br>
+<button style="float:Bottom !important"><a class="active" href="Donate.php">تبرع الأن</a></button>
 </center>
 ';
 
@@ -210,7 +226,9 @@ echo'
  </p>
 
 </section>
-<img src="images/clothes2.png" width="50%" height="400">
+<img src="images/clothes2.png" width="250" height="250">
+<br>
+<button style="float:Bottom !important"><a class="active" href="Donate.php">تبرع الأن</a></button>
 </center>
 ';
 

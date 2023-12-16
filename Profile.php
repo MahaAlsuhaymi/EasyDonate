@@ -14,7 +14,8 @@ include("connect.php");
 </head>
 <body style="margin: 0px;">
 
-<ul>
+<!-- start of Menu section -->
+<ul style="font-size: 18px; font-weight: bold;">
 
     <li ><a style="text-align: right;" href="Home.php">الرئيسية</a></li>
         <li><a href="Faqs.php">الأسئلة الشائعة</a></li>
@@ -25,18 +26,18 @@ include("connect.php");
 if(isset($_SESSION['name'])){
 
 
-echo"<li style='float:left !important'><a class='active' href='Logout.php'>تسجيل خروج</a></li>";
-echo"<li style='float:left !important'><a class='active' href='Edit.php'>البروفايل</a></li>";
+echo"<li style='float:left !important'><a class='active' href='Logout.php'>تسجيل الخروج</a></li>";
+echo"<li style='float:left !important'><a class='active' href='Edit.php'>الملف الشخصي</a></li>";
 
 }
 else
 {
-  echo"<li style='float:left !important'><a class='active' href='Login.php'>تسجيل دخول </a></li>";
+  echo"<li style='float:left !important'><a class='active' href='Login.php'>تسجيل الدخول </a></li>";
+  echo"<li style='float:left !important'><a class='active' href='Type.php'>تبرع لمرة واحدة</a></li>";
 
 }
 ?>
 </ul>
-
 <!-- End of Menu section -->
 
 <div class="home-content">

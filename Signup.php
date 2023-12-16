@@ -7,12 +7,12 @@ include("connect.php");
 <!DOCTYPE html>
 <html dir="rtl" lang="ar">
 <head>
-<title>Brandi</title>
+<title>Easy Donate</title>
 <link rel="stylesheet" href="style.css">
 <link href="images/">
 
 </head>
-<body style="margin: 0px; background-image: url('images/back.png');">
+<body style="margin: 0px; background-image: url('images/Background.png'); height: 100%; background-position: Top; background-repeat: no-repeat; background-size: cover;">
 
   <?php
 
@@ -41,7 +41,7 @@ $insert_user=mysqli_query($connect,"INSERT INTO users(user_name,user_email,user_
 <center>
 <div class="Login">
     <div class="Login_1">
-  <img class="Login_img" src="images/about.png" >
+  <img class="Login_img" src="images/Donate_Icon.png" >
   </div>
 
   <div class="Login_2">

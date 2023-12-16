@@ -169,9 +169,10 @@ button
 }
 footer
 {
-	background-color: #333;
-	color: white;
+  background-color: #D3E8E8;
+	color: rgb(65, 84, 99);
 	padding: 10px;
+  font-weight: bold;
 }
 
 
@@ -189,7 +190,8 @@ footer a
 {
   text-decoration: none;
   cursor: pointer;
-  color: white;
+  color: rgb(26, 70, 73);
+  font-weight: bold;
 }
 
 /*slideshow style*/

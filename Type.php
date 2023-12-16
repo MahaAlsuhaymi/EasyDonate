@@ -13,8 +13,8 @@ include("connect.php");
 <link href="images/">
 </head>
 <body style="margin: 0px; ">
-  <!-- start of Menu section -->
-<ul>
+<!-- start of Menu section -->
+<ul style="font-size: 18px; font-weight: bold;">
 
     <li ><a style="text-align: right;" href="Home.php">الرئيسية</a></li>
         <li><a href="Faqs.php">الأسئلة الشائعة</a></li>
@@ -32,11 +32,12 @@ echo"<li style='float:left !important'><a class='active' href='Edit.php'>الم�
 else
 {
   echo"<li style='float:left !important'><a class='active' href='Login.php'>تسجيل الدخول </a></li>";
+  echo"<li style='float:left !important'><a class='active' href='Type.php'>تبرع لمرة واحدة</a></li>";
 
 }
 ?>
 </ul>
-<img src="images/28.png" width="100%" height="600">
+<img src="images/header_1.png" width="100%" height="600">
 
 <!-- End of Menu section -->
 
@@ -50,14 +51,14 @@ else
 <div class="flex-container">
 
 <div class="container">
-  <img src="images/clothes.png" class="image" style="width:100%">
+  <img src="images/clothes_pic.png" class="image" style="width:100%">
   <div class="middle">
     <a href="Type.php?type=clothes" class="text">تبرع الان!</a>
   </div>
 </div>
 
 <div class="container">
-  <img src="images/books.png"  class="image" style="width:100%">
+  <img src="images/books_pic.png"  class="image" style="width:100%">
   <div class="middle">
     <a href="Type.php?type=books" class="text">تبرع الان!</a>
   </div>
@@ -65,7 +66,7 @@ else
 
 
 <div class="container">
-  <img src="images/food.png"  class="image" style="width:100%">
+  <img src="images/food_pic.png"  class="image" style="width:100%">
   <div class="middle">
     <a href="Type.php?type=food" class="text">تبرع الان!</a>
   </div>
@@ -73,7 +74,7 @@ else
 
 
 <div class="container">
-  <img src="images/Blood.png" class="image" style="width:100%">
+  <img src="images/blood_pic.png" class="image" style="width:100%">
   <div class="middle">
     <a href="Type.php?type=Blood" class="text">تبرع الان!</a>
   </div>
@@ -82,8 +83,6 @@ else
 
 </div> 
 </div>
-
-
 <!--Donation Types End-->
 
 
